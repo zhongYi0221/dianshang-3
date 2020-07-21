@@ -12,7 +12,7 @@ import './plugins/element.js'
 
 Vue.config.productionTip = false;
 //配置根目录
-axios.defaults.baseURL=`http://47.115.124.102:8888/api/private/v1/`;
+axios.defaults.baseURL=`http://timemeetyou.com:8889/api/private/v1/`;
 
 //拦截器
 //API V1 认证统一使用 Token 认证
